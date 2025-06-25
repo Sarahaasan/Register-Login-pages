@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Welcome to Our Platform </h1>
+    <div id="Start" >
+        <div class="having-account">
+            <p>Having an Account </p>
+            <button><a href="./Login.html">Log In</a></button>
+        </div>
+        <div class="no-account">
+            <p>Having no Account</p>
+            <button><a href="./Register.html">Register</a></button>
+        </div>
+    </div>
+<div id="profile" style="display:none; border: 1px solid #9f01ea; padding: 1em; border-radius: 8px; max-width: 400px;">
+  <h2>Profile</h2>
+  <p><strong>Name: </strong> <span id="profileName"></span></p>
+  <p><strong>Email: </strong> <span id="profileEmail"></span></p>
+  <button id="logoutBtn">Log Out</button>
+</div>
+
+<script type="module" src="/js/main.js"></script> 
+</body>
+</html>

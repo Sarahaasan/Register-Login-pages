@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  height: 100vh;   
+  position: relative; 
+}
+body > div 
+{
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* start page */
+#Start {
+margin-top: -2.5em;
+}
+#Start p
+{
+    color: white;
+    font-size: 2em;
+    padding: 1em;
+}
+ a  
+{
+   text-decoration: none;
+   color: white;
+   font-size: 1.4em;
+}
+ h1 
+{
+ color: #fff;
+ text-align: center;
+  margin-top: 2.5em;
+  font-size: 3em;
+}
+ .after , .already-reg , .NotReg , .loggedIN , #profile
+ {
+    color:#9f01ea;
+    font-size: 1.7em;
+    background-color: white; 
+    padding: 2em;   
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    display:none;
+ }
+ #profile
+ {
+    display: flex;
+ }
+ 
+/* Register page  */
+.container {
+  width: 100%;
+  max-width: 480px;
+  padding: 20px;
+}
+
+.form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+.form button , #Start button , .after button , .already-reg button , #profile button , .loggedIN button , button {
+  width: 100%;
+  padding: 10px;
+  background:#6e91e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.form button:hover {
+  opacity: 0.9;
+}
+
+.form input:focus {
+    border-color: #9f01ea;
+    outline: none; 
+}
+
+@media (max-width: 500px) {
+  .form {
+    padding: 20px;
+  }
+}
+/*  */

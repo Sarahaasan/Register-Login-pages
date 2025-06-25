@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container Register">
+    <form class="form">
+      <h2>Register</h2>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+  <div class="after">
+    <h2>You have Registered Successfully ✔️</h2>
+    <h3>Now try to LogIn </h3>
+    <button><a href="/Login.html">LogIn</a></button>
+  </div>
+  <div class="already-reg">
+    <h2>This Email is already found </h2>
+    <h3>Try to Log In instead </h3>
+    <button><a href="/Login.html">LogIn</a></button>
+    <h2>Or Register with a New account</h2>
+     <button type="submit">Sign Up</button>
+  </div>
+<script type="module" src="/js/register.js"></script> 
+</body>
+</html>
