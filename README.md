@@ -1,52 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>README - Register-Login Pages</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 2rem;
-      line-height: 1.6;
-      color: #333;
-    }
-    h1, h2 {
-      color: #1a73e8;
-      margin-top: 2rem;
-    }
-    code {
-      background-color: #f1f1f1;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-family: monospace;
-    }
-    pre {
-      background-color: #f4f4f4;
-      padding: 1rem;
-      overflow-x: auto;
-      border-left: 4px solid #1a73e8;
-    }
-    a {
-      color: #1a73e8;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    ul {
-      padding-left: 1.5rem;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid #ccc;
-      margin: 2rem 0;
-    }
-  </style>
-</head>
-<body>
 
   <h1>Register-Login Pages 👤🔐</h1>
   <p>A front-end-only registration and login system using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. User information is stored and validated using <code>localStorage</code>, with a simple profile page included.</p>
@@ -113,5 +64,3 @@
   <hr>
   <p><em>Feel free to suggest improvements or contribute.</em></p>
 
-</body>
-</html>
